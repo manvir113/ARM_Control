@@ -1,3 +1,6 @@
+# armteam folders
+vosk_models/
+
 # python 
 __pycache__
 */__pycache__
@@ -11,6 +14,9 @@ __pycache__/
 
 # configuration and secrets
 config.json
+
+# logs
+Logs/
 
 # Intellij
 **.idea
