@@ -27,7 +27,30 @@ class MainWindow(QMainWindow):
         widget = QWidget()
         widget.setLayout(layout1)
         self.setCentralWidget(widget)
+        b1.setCheckable(True)
+        b1.clicked.connect(self.b1)
+        b2.setCheckable(True)
+        b2.clicked.connect(self.b2)
+        b3.setCheckable(True)
+        b3.clicked.connect(self.b3)
+        b4.setCheckable(True)
+        b4.clicked.connect(self.b4)
+        b5.setCheckable(True)
+        b5.clicked.connect(self.b5)
+        b6.setCheckable(True)
+        b6.clicked.connect(self.b6)
+    def b1(self):
 
+    def b2(self):
+
+    def b3(self):
+    
+    def b4(self):
+
+    def b5(self):
+
+    def b6(self):
+        
 app = QApplication(sys.argv)
 
 window = MainWindow()
